@@ -4,7 +4,7 @@ import Menu from './menu';
 import About from './About';
 import Contact from './Contact';
 import {BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import './Home.css';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
 
 const Home = () =>{
 	return(
-		<div className="contactstyle">
+		<div className="homestyle">
 			<h2> Welcome to Home Pages</h2>
 		</div>
 
